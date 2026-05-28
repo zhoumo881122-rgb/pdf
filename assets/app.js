@@ -129,7 +129,7 @@
     $$("[data-i18n]").forEach((node) => {
       node.textContent = t(node.dataset.i18n);
     });
-    document.title = lang === "zh" ? "VagaPDF - 免费在线 PDF 工具" : "VagaPDF - Free Online PDF Tools";
+    document.title = lang === "zh" ? "VagaPDF - 免费在线 PDF 工具，PDF合并拆分转换" : "Free Online PDF Tools - Merge, Split, Rotate, Watermark PDF | VagaPDF";
     buildToolGrid();
     if (location.hash && location.hash !== "#home") route();
   }
@@ -180,6 +180,7 @@
     const id = (location.hash || "#home").replace("#", "");
     $("#heroSection").classList.toggle("hidden", id !== "home");
     $("#topAd").classList.toggle("hidden", id !== "home");
+    $("#seoContent").classList.toggle("hidden", id !== "home");
     $("#home").classList.toggle("hidden", id !== "home");
     $("#toolPage").classList.toggle("hidden", !toolText[id]);
     $("#privacy").classList.toggle("hidden", id !== "privacy");

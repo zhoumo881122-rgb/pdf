@@ -3,14 +3,27 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>VagaPDF - Free Online PDF Tools</title>
-    <meta name="description" content="Free browser-based PDF tools. Merge, split, rotate, remove pages, add watermark, convert JPG to PDF and PDF to JPG without registration.">
-    <meta name="robots" content="index,follow">
+    <title>Free Online PDF Tools - Merge, Split, Rotate, Watermark PDF | VagaPDF</title>
+    <meta name="description" content="Use VagaPDF free online PDF tools to merge PDF, split PDF, remove pages, rotate PDF, add watermark, convert JPG to PDF and export PDF to JPG. No registration required.">
+    <meta name="keywords" content="PDF tools, free PDF tools, online PDF tools, merge PDF, split PDF, remove PDF pages, rotate PDF, watermark PDF, JPG to PDF, PDF to JPG, PDF editor online, PDF converter, no sign up PDF tools, 免费PDF工具, PDF合并, PDF拆分, PDF转图片">
+    <meta name="author" content="VagaTools">
+    <meta name="robots" content="index,follow,max-image-preview:large">
+    <meta name="theme-color" content="#e94235">
     <link rel="canonical" href="https://pdf.vagatools.com/">
-    <meta property="og:title" content="VagaPDF - Free Online PDF Tools">
-    <meta property="og:description" content="Use practical PDF tools directly in your browser. No sign up required.">
+    <link rel="alternate" hreflang="x-default" href="https://pdf.vagatools.com/">
+    <link rel="alternate" hreflang="en" href="https://pdf.vagatools.com/">
+    <link rel="alternate" hreflang="zh" href="https://pdf.vagatools.com/">
+    <meta property="og:site_name" content="VagaPDF">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:title" content="Free Online PDF Tools - VagaPDF">
+    <meta property="og:description" content="Merge, split, rotate, watermark and convert PDF files online without registration.">
     <meta property="og:url" content="https://pdf.vagatools.com/">
     <meta property="og:type" content="website">
+    <meta property="og:image" content="https://pdf.vagatools.com/assets/og-image.svg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Free Online PDF Tools - VagaPDF">
+    <meta name="twitter:description" content="Browser-based PDF tools for merging, splitting, rotating, watermarking and converting files.">
+    <meta name="twitter:image" content="https://pdf.vagatools.com/assets/og-image.svg">
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23e94235'/%3E%3Cpath d='M19 12h18l12 12v28H19z' fill='white'/%3E%3Cpath d='M37 12v13h12' fill='%23ffd6d2'/%3E%3Cpath d='M24 38h20M24 45h15' stroke='%23e94235' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9943771829287979" crossorigin="anonymous"></script>
     <script defer src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
@@ -18,6 +31,72 @@
     <script type="module">
       import * as pdfjsLib from "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.10.38/pdf.min.mjs";
       window.pdfjsLib = pdfjsLib;
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://pdf.vagatools.com/#organization",
+            "name": "VagaTools",
+            "url": "https://pdf.vagatools.com/"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://pdf.vagatools.com/#website",
+            "name": "VagaPDF",
+            "url": "https://pdf.vagatools.com/",
+            "publisher": { "@id": "https://pdf.vagatools.com/#organization" },
+            "inLanguage": ["en", "zh"]
+          },
+          {
+            "@type": "SoftwareApplication",
+            "@id": "https://pdf.vagatools.com/#app",
+            "name": "VagaPDF",
+            "applicationCategory": "UtilitiesApplication",
+            "operatingSystem": "Web",
+            "url": "https://pdf.vagatools.com/",
+            "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+            "featureList": ["Merge PDF", "Split PDF", "Remove PDF pages", "Rotate PDF", "Watermark PDF", "JPG to PDF", "PDF to JPG"]
+          },
+          {
+            "@type": "ItemList",
+            "@id": "https://pdf.vagatools.com/#tools",
+            "name": "Free online PDF tools",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Merge PDF", "url": "https://pdf.vagatools.com/#merge-pdf" },
+              { "@type": "ListItem", "position": 2, "name": "Split PDF", "url": "https://pdf.vagatools.com/#split-pdf" },
+              { "@type": "ListItem", "position": 3, "name": "Remove PDF Pages", "url": "https://pdf.vagatools.com/#remove-pages" },
+              { "@type": "ListItem", "position": 4, "name": "Rotate PDF", "url": "https://pdf.vagatools.com/#rotate-pdf" },
+              { "@type": "ListItem", "position": 5, "name": "Watermark PDF", "url": "https://pdf.vagatools.com/#watermark-pdf" },
+              { "@type": "ListItem", "position": 6, "name": "JPG to PDF", "url": "https://pdf.vagatools.com/#jpg-to-pdf" },
+              { "@type": "ListItem", "position": 7, "name": "PDF to JPG", "url": "https://pdf.vagatools.com/#pdf-to-jpg" }
+            ]
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://pdf.vagatools.com/#faq",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Is VagaPDF free to use?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Yes. VagaPDF provides free online PDF tools that can be used without registration." }
+              },
+              {
+                "@type": "Question",
+                "name": "Are my PDF files uploaded?",
+                "acceptedAnswer": { "@type": "Answer", "text": "The static VagaPDF website processes supported tools in your browser with client-side JavaScript instead of uploading files to a VagaPDF server." }
+              },
+              {
+                "@type": "Question",
+                "name": "Which PDF tools are available?",
+                "acceptedAnswer": { "@type": "Answer", "text": "VagaPDF includes tools to merge PDF, split PDF, remove pages, rotate PDF, add watermark, convert JPG to PDF and export PDF to JPG." }
+              }
+            ]
+          }
+        ]
+      }
     </script>
     <link rel="stylesheet" href="assets/styles.css">
   </head>
@@ -80,6 +159,48 @@
           </div>
         </div>
         <div id="toolGrid" class="tool-grid"></div>
+      </section>
+
+      <section id="seoContent" class="seo-section">
+        <div class="seo-copy">
+          <p class="eyebrow">PDF tools online</p>
+          <h2>Free PDF tools for common document tasks</h2>
+          <p>VagaPDF helps you handle everyday PDF work in the browser: merge PDF files, split PDF pages, remove unwanted pages, rotate scanned documents, add text watermarks, convert JPG to PDF and export a PDF page to JPG. It is designed for fast tasks without account creation.</p>
+          <p>中文用户也可以直接使用：PDF 合并、PDF 拆分、删除 PDF 页面、旋转 PDF、PDF 加水印、JPG 转 PDF、PDF 转 JPG。</p>
+        </div>
+        <div class="seo-grid" aria-label="PDF tool keyword guide">
+          <article>
+            <h3>Merge PDF online</h3>
+            <p>Combine several PDF documents into one downloadable file. Useful for reports, invoices, scans and contracts.</p>
+          </article>
+          <article>
+            <h3>Split and extract PDF pages</h3>
+            <p>Choose page ranges such as 1-3,5 to create a smaller PDF from the pages you need.</p>
+          </article>
+          <article>
+            <h3>Rotate or remove PDF pages</h3>
+            <p>Fix sideways pages or delete pages that should not be included in the final document.</p>
+          </article>
+          <article>
+            <h3>Convert images and PDF files</h3>
+            <p>Create PDF files from JPG, PNG or WebP images, or export the first PDF page as a JPG image.</p>
+          </article>
+        </div>
+        <div class="faq-list">
+          <h2>Frequently asked questions</h2>
+          <details>
+            <summary>Do I need to register?</summary>
+            <p>No. VagaPDF is built for direct use without login or registration.</p>
+          </details>
+          <details>
+            <summary>Can I use it on mobile?</summary>
+            <p>Yes. The layout is responsive and works on desktop, tablet and mobile browsers.</p>
+          </details>
+          <details>
+            <summary>Why are tools client-side?</summary>
+            <p>Client-side processing keeps simple PDF tasks fast and avoids sending selected files to a VagaPDF upload server.</p>
+          </details>
+        </div>
       </section>
 
       <section id="toolPage" class="tool-page hidden" aria-live="polite"></section>

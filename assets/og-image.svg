@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#fff8f5"/>
+  <rect x="72" y="70" width="1056" height="490" rx="24" fill="#ffffff" stroke="#eadad3" stroke-width="2"/>
+  <rect x="116" y="114" width="92" height="92" rx="18" fill="#e94235"/>
+  <text x="162" y="169" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#ffffff">PDF</text>
+  <text x="236" y="158" font-family="Arial, sans-serif" font-size="58" font-weight="800" fill="#231b18">VagaPDF</text>
+  <text x="116" y="280" font-family="Arial, sans-serif" font-size="72" font-weight="800" fill="#231b18">Free Online PDF Tools</text>
+  <text x="116" y="352" font-family="Arial, sans-serif" font-size="34" fill="#6b5f5a">Merge, split, rotate, watermark and convert PDF files.</text>
+  <g font-family="Arial, sans-serif" font-size="28" font-weight="700">
+    <rect x="116" y="420" width="160" height="64" rx="12" fill="#fff1ec"/>
+    <text x="196" y="461" text-anchor="middle" fill="#e94235">Merge</text>
+    <rect x="296" y="420" width="140" height="64" rx="12" fill="#fff1ec"/>
+    <text x="366" y="461" text-anchor="middle" fill="#e94235">Split</text>
+    <rect x="456" y="420" width="150" height="64" rx="12" fill="#fff1ec"/>
+    <text x="531" y="461" text-anchor="middle" fill="#e94235">Rotate</text>
+    <rect x="626" y="420" width="210" height="64" rx="12" fill="#fff1ec"/>
+    <text x="731" y="461" text-anchor="middle" fill="#e94235">JPG to PDF</text>
+  </g>
+  <text x="116" y="522" font-family="Arial, sans-serif" font-size="26" fill="#1b7f79">pdf.vagatools.com</text>
+</svg>

@@ -290,7 +290,8 @@ h2 {
 
 .tools-section,
 .tool-page,
-.info-section {
+.info-section,
+.seo-section {
   padding: 24px clamp(18px, 4vw, 52px) 64px;
 }
 
@@ -512,6 +513,65 @@ textarea.field {
   font-size: 18px;
 }
 
+.seo-section {
+  display: grid;
+  gap: 26px;
+}
+
+.seo-copy {
+  max-width: 960px;
+}
+
+.seo-copy p {
+  color: var(--muted);
+  font-size: 18px;
+  line-height: 1.65;
+}
+
+.seo-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.seo-grid article,
+.faq-list {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.seo-grid h3 {
+  margin: 0 0 10px;
+  font-size: 18px;
+}
+
+.seo-grid p,
+.faq-list p {
+  color: var(--muted);
+  line-height: 1.55;
+}
+
+.faq-list {
+  display: grid;
+  gap: 10px;
+}
+
+.faq-list h2 {
+  margin-bottom: 4px;
+}
+
+.faq-list details {
+  border-top: 1px solid var(--line);
+  padding-top: 12px;
+}
+
+.faq-list summary {
+  cursor: pointer;
+  font-weight: 800;
+}
+
 .footer {
   display: flex;
   justify-content: space-between;
@@ -543,6 +603,10 @@ textarea.field {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .seo-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .section-heading {
     align-items: start;
     flex-direction: column;
@@ -566,7 +630,8 @@ textarea.field {
   }
 
   .tool-grid,
-  .options {
+  .options,
+  .seo-grid {
     grid-template-columns: 1fr;
   }
 
